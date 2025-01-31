@@ -1499,6 +1499,7 @@ canvas {
 ----------------------------------------------------------------*/
 .st-about-img {
   min-height: 550px;
+  border-radius: 15px;
 }
 
 .st-about-img-wrap {
@@ -1628,6 +1629,12 @@ canvas {
 
 .st-progressbar-wrap {
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 78px;
+  row-gap: 30px;
+  justify-content: center;
 }
 
 .st-progressbar-heading {
@@ -1644,16 +1651,17 @@ canvas {
       flex-wrap: wrap;
   margin-bottom: 2px;
   font-family: 'Roboto', sans-serif;
-}
-
-.st-single-progressbar {
-  margin-top: -5px;
-  
+  padding: 10px;
+  border: 1px solid #fec544;
+  transition: all linear .3s;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .st-progressbar-title {
   font-size: 16px;
   margin-bottom: 0;
+  transition: all linear .3s;
 }
 
 .st-progressbar-percentage {
@@ -1671,6 +1679,17 @@ canvas {
   background-color: #fec544;
   height: 2px;
 }
+
+.st-progressbar-heading h3:hover{
+  color: #fec544;
+  
+}
+.st-progressbar-heading:hover{
+  border: 1px solid #fec544;
+  background: #343a40;
+  
+}
+
 
 @media screen and (max-width: 991px) {
   .st-skill-title {
