@@ -1652,7 +1652,7 @@ canvas {
   margin-bottom: 2px;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
-  border: 1px solid #fec544;
+  border: 1px solid #232935;
   transition: all linear .3s;
   border-radius: 10px;
   color: #fff;
@@ -1680,13 +1680,8 @@ canvas {
   height: 2px;
 }
 
-.st-progressbar-heading h3:hover{
-  color: #fec544;
-  
-}
 .st-progressbar-heading:hover{
   border: 1px solid #fec544;
-  background: #343a40;
   
 }
 
